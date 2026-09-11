@@ -93,7 +93,7 @@ limit switch
 </tr>
 <tr>
 <td align="center"><img src="img/main_actuator_3.png" alt="Main actuator exploded view" width="100%"></td>
-<td align="center"><img src="img/main_actuator_4.jpg" alt="3D printed main actuator" width="100%"></td>
+<td align="center"><img src="img/main_actuator_4.jpg" alt="3D printed main actuator" height="535"></td>
 </tr>
 </table>
 
