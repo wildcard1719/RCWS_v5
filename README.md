@@ -32,7 +32,7 @@
 <a id="overview"></a>
 # 1. Overview
 
-RCWS(Remote controlled Waepon System) v5 prototype is one of several 3D-printed RCWS projects. The goal of This projects is to demonstrate an electro-optical fire control system at a range of approximately 30 meters. The RCWS v5 prototype was designed so that all mechanical parts, except for electronic components and bearings, can be fabricated using an Ender 3 v2 3D printer.  
+The RCWS (Remote Controlled Weapon System) v5 prototype is one of several 3D-printed RCWS projects. The goal of this project is to demonstrate an electro-optical fire-control system at a range of approximately 30 meters. The RCWS v5 was designed so that all mechanical parts, except for electronic components and bearings, can be fabricated using an Ender 3 V2 3D printer.  
 This document presents the mechanical design and assembly of the RCWS v5.
 
 <p align="center">
@@ -44,9 +44,9 @@ This document presents the mechanical design and assembly of the RCWS v5.
 <p align="center"><em>Figure 1.</em></p>
 
 <a id="system-architecture"></a>
-# 2. System architecture
+# 2. System Architecture
 
-Structure of RCWS v5 can be categorized into four main sub system: drive system, launcher, EOTS, and electronic control.
+The RCWS v5 consists of four main subsystems: the drive system, launcher, electro-optical targeting system (EOTS), and electronic control system.
 
 <p align="center">
   <img src="img/asm2_texted.png" alt="RCWS v5 system architecture" width="78%">
@@ -54,17 +54,17 @@ Structure of RCWS v5 can be categorized into four main sub system: drive system,
 
 <p align="center"><em>Figure 2.</em></p>
 
-The drive system and EOTS has each use two worm-gear actuator. The launcher and camera can be controlled independently. This four-axis architecture satisfies the fire control requirements for dynamically moving target and long-range firing.
+The drive system and EOTS each use two worm-gear actuators. The launcher and camera can be controlled independently. This four-axis architecture supports fire-control operation against moving targets and at extended ranges.
 
-All part of the RCWS v5 can be printed using an Ender3 v2 3D printer. The largest part is Main_Frame, with a bounding box size of 180 x 145 x 248mm.
+All mechanical parts of the RCWS v5 are designed to be printable on an Ender 3 V2 3D printer. The largest component, Main Frame (`Main_Frame`), has a bounding box of 180 × 145 × 248 mm.
 
 <a id="drive-system"></a>
-# 3. Drive system
+# 3. Drive System
 
-The drive system is a two-axis pan-tilt chassis comprising the main frame, neck frame, two worm-gear actuators, a 3D printed azimuth bearing, and a tripod.
+The drive system is a two-axis pan-tilt chassis comprising the main frame, neck frame, two worm-gear actuators, a 3D-printed azimuth bearing, and a tripod.
 
 <a id="main-frame-neck-frame"></a>
-## 3-1. Main frame & Neck frame
+## 3-1. Main Frame & Neck Frame
 
 <p align="center">
   <img src="img/main_neck_frame_1.png" alt="Main frame and neck frame" width="40%">
@@ -84,17 +84,18 @@ limit switch
 6805ZZ bearing
 
 <a id="main-actuator"></a>
-## 3-2. Main actuator
+## 3-2. Main Actuator
 
-<table width="100%">
-<tr>
-<td width="50%" align="center"><img src="img/main_actuator_1.png" alt="Main actuator" height="320"></td>
-<td width="50%" align="center"><img src="img/main_actuator_2.png" alt="Main actuator" height="320"></td>
-</tr>
-<tr>
-<td width="50%" align="center"><img src="img/main_actuator_3.png" alt="Main actuator exploded view" height="320"></td>
-<td width="50%" align="center"><img src="img/main_actuator_4.png" alt="3D printed main actuator" height="320"></td>
-</tr>
+
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="img/main_actuator_1.png" alt="Main actuator" width="100%"></td>
+    <td width="50%" align="center"><img src="img/main_actuator_2.png" alt="Main actuator" width="100%"></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="img/main_actuator_3.png" alt="Main actuator exploded view" width="100%"></td>
+    <td width="50%" align="center"><img src="img/main_actuator_4.png" alt="3D-printed main actuator" width="100%"></td>
+  </tr>
 </table>
 
 <p align="center"><em>Figure 4.</em></p>
@@ -109,7 +110,7 @@ M4 hex nut
 MR128ZZ bearing
 
 <a id="3d-printed-azimuth-bearing"></a>
-## 3-3. 3D printed azimuth bearing
+## 3-3. 3D-Printed Azimuth Bearing
 
 The entire frame and beads are 3D printed because of cost of bearing.
 
@@ -207,7 +208,7 @@ The EOTS features a cable-driven camera zoom mechanism and an adjustable rangefi
 <p align="center"><em>Figure 10.</em></p>
 
 <a id="eots-actuator"></a>
-## 5-1. EOTS actuator
+## 5-1. EOTS Actuator
 
 <p align="center">
   <img src="img/mini_actuator_1.png" alt="EOTS actuator" width="40%">
@@ -225,7 +226,7 @@ MR128ZZ bearing
 6805ZZ bearing
 
 <a id="camera-frame"></a>
-## 5-2. Camera frame
+## 5-2. Camera Frame
 
 <p align="center">
   <img src="img/camera_1.png" alt="Camera frame exploded view" width="40%">
@@ -253,7 +254,7 @@ M3 x 25mm bolt
 M3 hex nut
 
 <a id="electronic-control"></a>
-# 6. Electronic control
+# 6. Electronic Control
 
 Unfortunately, most of the documentation related to the electronic control system has been lost. An Arduino was used to control the stepper motors and interpret PWM signals from the RC transmitter and receiver, while a Raspberry Pi 4 was used for image processing.
 
