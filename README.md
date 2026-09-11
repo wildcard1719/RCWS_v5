@@ -38,7 +38,7 @@ This document presents the mechanical design and assembly of the RCWS v5.
 <p align="center">
   <img src="img/front.png" alt="RCWS v5 assembled" width="40%">
   &nbsp;&nbsp;
-  <img src="img/asm.jpg" alt="RCWS v5 exploded view" width="40%">
+  <img src="img/asm.png" alt="RCWS v5 exploded view" width="40%">
 </p>
 
 <p align="center"><em>Figure 1.</em></p>
@@ -86,14 +86,14 @@ limit switch
 <a id="main-actuator"></a>
 ## 3-2. Main actuator
 
-<table>
+<table width="100%">
 <tr>
-<td align="center"><img src="img/main_actuator_1.png" alt="Main actuator" width="100%"></td>
-<td align="center"><img src="img/main_actuator_2.png" alt="Main actuator" width="100%"></td>
+<td width="50%" align="center"><img src="img/main_actuator_1.png" alt="Main actuator" height="320"></td>
+<td width="50%" align="center"><img src="img/main_actuator_2.png" alt="Main actuator" height="320"></td>
 </tr>
 <tr>
-<td align="center"><img src="img/main_actuator_3.png" alt="Main actuator exploded view" width="100%"></td>
-<td align="center"><img src="img/main_actuator_4.jpg" alt="3D printed main actuator" width="100%"></td>
+<td width="50%" align="center"><img src="img/main_actuator_3.png" alt="Main actuator exploded view" height="320"></td>
+<td width="50%" align="center"><img src="img/main_actuator_4.png" alt="3D printed main actuator" height="320"></td>
 </tr>
 </table>
 
@@ -236,7 +236,7 @@ MR128ZZ bearing
 <p align="center"><em>Figure 12.</em></p>
 
 <p align="center">
-  <img src="img/camera_3.jpg" alt="Camera frame" width="72%">
+  <img src="img/camera_3.png" alt="Camera frame" width="72%">
 </p>
 
 <p align="center"><em>Figure 13.</em></p>
@@ -258,7 +258,7 @@ M3 hex nut
 Unfortunately, most of the documentation related to the electronic control system has been lost. An Arduino was used to control the stepper motors and interpret PWM signals from the RC transmitter and receiver, while a Raspberry Pi 4 was used for image processing.
 
 <p align="center">
-  <img src="img/electronics_1.jpg" alt="Electronic control board" width="72%">
+  <img src="img/electronics_1.png" alt="Electronic control board" width="72%">
 </p>
 
 <p align="center"><em>Figure 14.</em></p>
